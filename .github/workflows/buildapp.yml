@@ -67,7 +67,7 @@ jobs:
           submodules: recursive
 
       - name: Install Dependencies
-        run: brew install ldid dpkg make
+        run: brew install ldid dpkg make undirect
 
       - name: Download Theos
         uses: actions/checkout@v4
